@@ -1,0 +1,46 @@
+Sprites.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fountain
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+Grave
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+Ninja
+  rotate: false
+  xy: 70, 2
+  size: 31, 32
+  orig: 31, 32
+  offset: 0, 0
+  index: -1
+Saracen
+  rotate: false
+  xy: 2, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+Sign
+  rotate: false
+  xy: 36, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+Tree
+  rotate: false
+  xy: 70, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1

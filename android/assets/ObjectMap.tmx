@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="25" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grounds32" tilewidth="32" tileheight="32">
+  <image source="grounds32.gif" trans="ffffff" width="288" height="608"/>
+ </tileset>
+ <layer name="Ground" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzFkcEKwyAMQD1X6QalP9V/GR07tKfu29vCAiEk0Uh0h3dS39M4hxBmwoR4O0D9PRpT4wb1c43PxWKE8wLSmaeRXMPqszRu/+sH7B0rOJR5YD/sfxjADbijNJcaP+bLOFcHf0Tsmbtr/kEgMo1D+CvJoUH90NgqfZobr20ODezt1RhIx6Mh/UOLd3Bz8n6HtFbSSIh/NTR/SSM1aFBnyZxycO/o0SidkbXRmhMV2VP2
+  </data>
+ </layer>
+ <objectgroup name="Entities" width="25" height="25">
+  <object name="PlayerSpawn" type="Spawn" x="192" y="480" width="31" height="29"/>
+  <object name="Saracen" type="Saracen" x="352" y="480" width="31" height="31"/>
+ </objectgroup>
+ <objectgroup name="Objects" width="25" height="25">
+  <object name="Tree" type="Tree" x="97" y="641" width="32" height="32"/>
+  <object name="Tree" type="Tree" x="361" y="557" width="32" height="32"/>
+  <object name="Sign" type="Sign" x="96" y="448" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Collision" width="25" height="25">
+  <object name="Fountain" type="Collision" x="193" y="577" width="29" height="29"/>
+  <object name="Mountains" type="Collision" x="0" y="352" width="33" height="417"/>
+  <object name="Mountains" type="Collision" x="3" y="769" width="796" height="31"/>
+  <object name="Mountains" type="Collision" x="765" y="192" width="36" height="577"/>
+ </objectgroup>
+</map>
